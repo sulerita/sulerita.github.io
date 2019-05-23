@@ -19,6 +19,7 @@
 
 ### Category Name 2
 
+- [Connect Four](https://raw.githubusercontent.com/sulerita/connect_four_game/master/README.md)
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
