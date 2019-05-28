@@ -23,7 +23,16 @@
         {% endif %}
         <div>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
-           
+          <p>
+            <a href="{{ site.linkedin }}">
+              View My LinkedIn Profile
+            </a>
+          </p>
+          <p>
+            <a href="{{ site.github_url }}">
+              View My Github Profile
+            </a>
+          </p>
           {% if site.show_downloads %}
           <ul class="downloads">
             <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -40,7 +49,7 @@
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
+        {% if false %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         {% if false %}
