@@ -248,11 +248,14 @@ hr {
 //   bottom:50px;
 //   -webkit-font-smoothing:subpixel-antialiased;
 // }
+
 footer {
   width:500px;
   // float:right;
   padding-bottom:20px;
+  padding-top: 20px;
   grid-area:footer;
+  border-top: 1px solid #e5e5e5;
   // float: right;
   // position: fixed;
   // bottom: 0px;
@@ -303,6 +306,7 @@ footer {
     grid-area: footer;
     width: auto;
     max-width: 90vw;
+    border-top: 0px solid #e5e5e5;
   }
   // header, section, footer {
   //   float:none;
