@@ -1,15 +1,17 @@
 title: Rita Sule # your name (or website title) here
 author: Rita Sule
 email: sulerita4@gmail.com
-logo: "/images/rita-sule-photo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  Data Science Enthusiast 
-  <br><br>
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-  Voluptate odio aspernatur impedit vel sed dolorum nesciunt
-   iure atque dicta cumque aliquam sequi, esse perferendis 
-   obcaecati tenetur dignissimos ipsam explicabo laborum?
-  <br><br>
+logo: "assets/images/rita-sule-photo.png?raw=true" # your photo (or logo) here
+description: >
+  Data Science Enthusiast
+bio: >  # your text below (remove <br> elements if you don't need line breaks)
+  <p>A Data Science Enthusiast with Data Analysis experience in Python, 
+  Machine Learning Algorithms, Natural Language Processing, 
+  Big Data and Spark with Python and Deep learning with Tensorflow. 
+  I am an excellent communicator, team player, dedicated to tasks, 
+  reliable and efficient with the passion to always improve and 
+  be the best.</p>
+
 
 github_url: "https://github.com/sulerita"
 linkedin: "https://uk.linkedin.com/in/rita-sule-372344134"
