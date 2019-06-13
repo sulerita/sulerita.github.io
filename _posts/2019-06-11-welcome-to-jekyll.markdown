@@ -4,6 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   2019-06-11 20:18:14 +0100
 categories: jekyll update
 project-image: assets/images/dummy_thumbnail.jpg?raw=true
+favourite: true
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

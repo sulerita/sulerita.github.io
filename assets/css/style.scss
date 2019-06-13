@@ -13,15 +13,19 @@ body {
   text-align: justify;
 }
 
+header h2, .favourite-post, .post-list-heading {
+  margin-bottom: 1em;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 0px;
   
 }
 
-p, ul, ol, table, pre, dl {
-  margin:0 0 10px;
-}
+// p, ul, ol, table, pre, dl {
+//   margin:0 0 10px;
+// }
 
 // h1, h2, h3 {
 //   line-height:1.1;
@@ -146,10 +150,10 @@ header {
   margin-top: 10px;
   width: 100%;
 }
-header h1 {
-  text-align: center;
-  padding-bottom: 10px;
-}
+// header h1 {
+//   text-align: center;
+//   padding-bottom: 10px;
+// }
 // header #img-div {
 //   // border-radius: 50%;
 //   // border: 10px solid #267CB9;
@@ -252,9 +256,9 @@ hr {
 footer {
   width:500px;
   // float:right;
-  padding-bottom:20px;
-  padding-top: 20px;
-  grid-area:footer;
+  // padding-bottom:20px;
+  // padding-top: 20px;
+  grid-area: footer;
   border-top: 1px solid #e5e5e5;
   // float: right;
   // position: fixed;

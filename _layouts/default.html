@@ -14,7 +14,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h2><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
       
         {% if site.logo %}
         <div id='img-div'>
@@ -25,12 +25,17 @@
           <p>{{ site.bio | default: site.github.project_tagline }}</p>
           <p>
             <a href="{{ site.linkedin }}">
-              View My LinkedIn Profile
+              View my LinkedIn Profile
             </a>
           </p>
           <p>
             <a href="{{ site.github_url }}">
-              View My Github Profile
+              View my Github Profile
+            </a>
+          </p>
+          <p>
+            <a href="{{ site.resume }}">
+              View my Resume
             </a>
           </p>
           {% if site.show_downloads %}

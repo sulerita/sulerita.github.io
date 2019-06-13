@@ -15,8 +15,9 @@ layout: default
     
     
     {%- for post in site.posts -%}
+      {%- if post.favourite %}
           <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
-          <div class='fav-post'>
+          <div class='favourite-post'>
             <h3>
                 <a class="post-link" href="{{ post.url | relative_url }}">
                 {{ post.title | escape }}
@@ -26,8 +27,8 @@ layout: default
           <!-- {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%} -->
-
         </div>
+      {%- endif -%}
     {%- endfor -%}
 
     <h2 class="post-list-heading">{{ page.list_title | default: "Other Works" }}</h2>
@@ -36,11 +37,11 @@ layout: default
       <li>
         <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
         <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-        <h3>
+        <h4>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h3>
+        </h4>
         <!-- {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%} -->

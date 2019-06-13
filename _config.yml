@@ -15,6 +15,7 @@ bio: >  # your text below (remove <br> elements if you don't need line breaks)
 
 github_url: "https://github.com/sulerita"
 linkedin: "https://uk.linkedin.com/in/rita-sule-372344134"
+resume: 'assets/pdf/SULE-Rita-Ehikowoicho-Data.pdf'
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 
