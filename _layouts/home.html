@@ -8,14 +8,13 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Portfolio" }}</h2>
     
     
     {%- for post in site.posts -%}
-      {%- if post.favourite %}
+      {%- if post.favourite -%}
           <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
           <div class='favourite-post'>
             <h3>
@@ -32,21 +31,24 @@ layout: default
     {%- endfor -%}
 
     <h2 class="post-list-heading">{{ page.list_title | default: "Other Works" }}</h2>
+    
     <ul class="post-list">
       {%- for post in site.posts -%}
-      <li>
-        <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
-        <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-        <h4>
-          <a class="post-link" href="{{ post.url | relative_url }}#post-detail">
-            {{ post.title | escape }}
-          </a>
-        </h4>
-        <!-- {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%} -->
-      </li>
+        {%- if post.favourite != true -%}
+          <li>
+            <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
+            <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+              <a class="post-link" href="{{ post.url | relative_url }}#post-detail">
+                {{ post.title | escape }}
+              </a>
+            <!-- {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%} -->
+          </li>
+        {%- endif -%}
       {%- endfor -%}
+
+    {{ content }}
     </ul>
 
     <!-- <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->

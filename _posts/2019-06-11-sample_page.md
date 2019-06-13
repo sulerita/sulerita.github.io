@@ -3,6 +3,8 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2019-06-11 20:18:14 +0100
 categories: jekyll update
+project-image: "assets/images/logo.png?raw=true"
+favourite: true
 ---
 ## This can be your internal website page / project page
 

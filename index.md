@@ -1,6 +1,11 @@
 ---
 layout: home
 ---
+<li><a class='post-link' href='https://github.com/sulerita/Lending-Club-Analysis'>Lending Club Analysis</a></li>
+<li><a class='post-link' href='https://github.com/sulerita/femaleDataScientist'>Female UK Data Scientists Salary Analysis</a></li>
+<li><a class='post-link' href='https://github.com/sulerita/RGB_Colour_Guessing_Game'>Colour Guessing Game</a></li>
+<li><a class='post-link' href='https://github.com/sulerita/connect_four_game'>Connect Four Game</a></li>
+<li><a class='post-link' href='https://github.com/sulerita/mood-slider'>Mood Slider</a></li>
 
 <!-- ## Portfolio
 
